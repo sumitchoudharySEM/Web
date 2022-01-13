@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ .hdd{ 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav{
+    background-color: rgb(58, 44, 44);
+    border-radius: 30px;
+   
+    
+}
+.nav li{
+    float:left;
+    list-style: none;
+    margin: 13px 20px;
+    
+}
+.nav ul{
+    overflow: auto;
+   
+}
+.nav li a{
+    padding: 10px 5px;
+    text-decoration: none;
+    color:white
+}
+
+
+.nav input{
+    border: 2px solid rgb(211, 29, 29);
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.nav li a:hover{
+    color:rgb(192, 125, 125)
+}
+.h{
+    list-style: none;
+   
+    font-family: 'Luxurious Roman', cursive;
+    font-size: xx-large;
+    color: rgb(243, 243, 243);
+    margin-top: 90px;
+    /* margin-left: 250px; */
+    text-align: center;
+
+}
+.hh{
+    font-size: 72px;
+    position:relative;
+    animation-name: sumit1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sumit1 {
+    form{ font-size: x-small;} 
+
+to { font-size: xx-large;}
+}
+.box {
+    border: 4px solid rgb(172, 80, 80);
+    background-color: rgb(235, 199, 199);
+    margin: 4px 0px;
+    padding: 23px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 10px;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.img2{
+  margin-top: 0px;
+    margin-left: 60px ;
+    margin-right: 20px;
+    float: left;
+}
+.img22{
+    width: 30vw;
+}
+.intro{
+    list-style: none;
+    margin-top: 100px;
+
+    }
+.hii{
+    font-family: fantasy;
+    font-size: 40PX;
+    
+}
+.my{
+    font-family: monospace;
+    font-size: x-large;
+   
+    color: rgb(243, 243, 243);
+    
+}
+.sumit{
+    font-size: 60PX;}
+   
+
+.lor{font-size:30px;
+    color: rgb(29, 11, 4);
+/* margin-right: 70px;
+     */
+}
+.lor2{font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+color: lightgoldenrodyellow;
+margin-top: 15px;
+font-size: 15px;
+margin-right: 310px;
+}
+
+.pro{font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e64d5a;
+    margin-bottom:12px ;
+    
+}
+
+.button{ 
+    margin-top: 60px;
+    margin-left: 10px;
+    height: 500px;
+    margin-left: 650px;
+}
+.button button{
+padding: 10px;
+border-radius: 30px;
+margin: 5px;
+background-color: rgb(133, 51, 37);
+color: seashell;
+font-size: 16px;
+cursor: pointer;
+}
+.button button:hover{
+    color: rgb(133, 51, 37);
+    background-color: seashell;
+}
+a[href*="https://www.instagram.com/sumit_sem__/"] {
+    background:url(https://Instagram.com/favicon.ico) no-repeat left center;
+    padding:19px;
+    }
+    
+    a[href*="https://www.facebook.com/profile.php?id=100057156802757"] {
+    background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
+    padding:19px;
+    }
+    a[href*="https://wa.me/7828373231"] {
+    /* background:url("/wapp.png") no-repeat  ; */
+    background-image: url("/wapp.png");
+    width: 5px;
+    padding:19px;
+    }
+   .wapp{
+       margin-left: 50%;
+   }
+   .line{
+       margin-left: 45%;
+       font-size: larger;
+       color: blanchedalmond;
+   }
